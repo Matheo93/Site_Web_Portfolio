@@ -1,0 +1,194 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  background-color: #5c48d2;
+}
+
+h1 {
+  font-size: 48px;
+  color: white;
+  line-height: 200px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+p {
+  /* Permet d'espacer chaque ligne de P ici égale à 30px */
+  line-height: 30px;
+}
+
+.main-block {
+  width: 1024px;
+  background-color: white;
+  border-radius: 20px;
+
+  /*text-align: center; */
+  margin: 0 auto;
+}
+
+.menu {
+  height: 100px;
+  display: flex;
+}
+
+.menu a {
+  /* Permet de centre les éléments présents dans nav */
+  flex: 1;
+  display: flex;
+  color: black;
+  height: 100px;
+  font-size: 20px;
+  /* Centrer les éléments horizontal et vertical */
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+/* Permet de faire changer la couleur lors du passage de la souris de l'élément présent dans nav */
+.menu :hover {
+  color: rgb(81, 0, 255);
+}
+.img-fond {
+  height: 400px;
+  width: 1024px;
+  object-fit: cover;
+}
+
+section {
+  padding: 100px;
+}
+
+#formation,
+#contact {
+  background-color: rgb(214, 225, 225);
+}
+
+.img-mb {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-mb img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: darkorange 2px solid;
+  /* Permet d'ajouter une marge à droite de l'image matheo (évite que les 2 éléments soient collés) */
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.nom {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.ville {
+  font-style: italic;
+}
+
+.formation {
+  display: flex;
+}
+
+.language {
+  height: 100px;
+  display: flex;
+  object-fit: cover;
+  justify-content: center;
+}
+
+.nao,
+.lunettes {
+  height: 300px;
+  width: 800px;
+  display: flex;
+}
+.nao img,
+.lunettes img {
+  height: 200px;
+  width: 200px;
+  display: flex;
+}
+
+.nao-txt,
+.lunettes-txt {
+  margin-right: 100px;
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+}
+
+.movember {
+  display: flex;
+}
+
+.movember img {
+  height: 50px;
+  margin-right: 200px;
+  display: flex;
+}
+
+.movember-txt {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+#contact div {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact {
+  border-radius: 20px;
+}
+
+#contact img {
+  height: 30px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.tel-txt {
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#contact a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+.mail :hover {
+  color: blue;
+}
+
+footer {
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+}

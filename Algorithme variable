@@ -1,0 +1,24 @@
+Algorithme variable
+Variable
+    déplacement ← 0
+    score ← 0
+Début
+    Déplacement à droite
+    déplacement ← déplacement + 1
+    score ← score + 10
+    Déplacement en haut
+    déplacement ← déplacement + 1
+    score ← score + 10
+    Déplacement en haut
+    déplacement ← déplacement + 1
+    score ← score + 10
+    Déplacement à gauche
+    déplacement ← déplacement + 1
+    score ← score + 20
+Fin
+
+Fonction maj_déplacement_score(déplacement, score, point_de_déplacement)
+Début
+    déplacement ← déplacement + 1
+    score ← score + point_de_déplacement
+Fin
